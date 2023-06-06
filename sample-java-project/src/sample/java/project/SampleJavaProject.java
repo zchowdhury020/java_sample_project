@@ -29,7 +29,7 @@ public class SampleJavaProject implements Runnable {
     /** Command line parameter for --loop. */
     @Parameter(names = "--loop", description = "print endlessly, hotswap demo")
     private boolean loop = false;
-       this
+    
     /** Command line parameter for --help. */
     @Parameter(names = { "-h", "--help" }, description = "print help message")
     private boolean help = false;
