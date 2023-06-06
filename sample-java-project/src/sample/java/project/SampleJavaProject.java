@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SampleJavaProject implements Runnable {
-
+     private
     /** The delay between printed messages. */
     private static final long PRINT_DELAY = 1000L;
 
